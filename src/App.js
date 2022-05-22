@@ -13,9 +13,9 @@ import Third from './components/third';
 function App() {
   return (
     <div className='app'>
-      <div className="container grid grid-row-8 max-w-max mx-auto font-main">
+      <div className="container flex-col max-w-max mx-auto font-main p-0 m-0">
         <div className="">
-          <div className="bg-[url('./images/pic1.png')] bg-opacity-70 bg-[#3775c5] bg-blend-overlay bg-center bg-cover bg-no-repeat overflow-hidden ">
+          <div className="bg-[url('./images/pic1.png')] bg-opacity-70 bg-[#3775c5] bg-blend-overlay bg-center bg-cover bg-no-repeat">
             <First/>
           </div>
         </div>

@@ -3,20 +3,24 @@ import menu from '../images/menu.png'
 
 function First() {
     return (
-        <div className='grid grid-cols-2 p-10 px-[100px] h-screen text-white'>
-            <div className='col-span-1 h-fit relative top-2'>
-                <h3 className='font-bold text-[24px]'>BRAND NAME</h3>
-            </div>
-            <div className='col-span-1 h-fit'>
-                <button className='float-right'>
-                    <img src = {menu} alt = "menu" className='w-[45px]' />
-                </button>
-            </div>
-            <div className='col-span-2 text-center h-fit'>
-                    <h1 className='text-[58px] font-extrabold tracking-wide fade-in-no-delay '>Build A Brand</h1>
-                    <p className='text-[18px] w-[60%] mx-auto fade-in-delay'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
+        <div className='max-w-full text-white'>
+            <div className='flex flex-col h-screen'>
+                <div className='flex max-w-full xs:px-[40px] xs:py-[20px] md:px-[100px] md:py-[35px]'>
+                    <div className='h-full mt-1'>
+                        <h3 className='font-bold xs:text-[25px] sm:text-[24px]'>BRAND NAME</h3>
+                    </div>
+                    <div className='h-fit ml-auto'>
+                        <button className=''>
+                            <img src = {menu} alt = "menu" className='w-[45px]' />
+                        </button>   
+                    </div>
+                </div>
+                <div className='text-center xs:py-[30px] md:py-[140px] space-y-5 '>
+                        <h1 className='xs:leading-[3rem] w-[50%] xs:text-[40px] md:text-[58px] font-extrabold md:tracking-wide fade-in-no-delay mx-auto'>Build A Brand</h1>
+                        <p className='xs:leading-[1.40rem] md:leading-[1.75rem] font-[500] text-[18px] w-[60%] xs:tracking-tighter md:tracking-wide mx-auto fade-in-delay'>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed iusto debitis consequuntur molestias deleniti, vel est earum pariatur vero cupiditate, aut eaque temporibus quis atque. Obcaecati labore sit ab! Et?
+                        </p>
+                </div>
             </div>
         </div>
     )
