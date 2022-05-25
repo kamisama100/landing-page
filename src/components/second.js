@@ -4,9 +4,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 function Second() {
     return (
-        <div className='grid grid-cols-2 h-[80vh]'>
-            <div className='grid bg-[#345B63] text-left justify-center place-items-center text-white'>
-                <div className='w-[70%] text-[18px]'>
+        <div className='xs:flex xs:flex-col lg:grid lg:grid-cols-2 lg:h-[80vh] xs:lg-min-h-0 lg:min-h-[500px]'>
+            <div className='grid place-content-center bg-[#345B63] text-white'>
+                <div className='xs:grid xs:place-content-center xs:h-[95vh] xs:min-h-[530px] lg:h-full xs:w-[80%] lg:w-[70%] xs:text-[17px] lg:text-[18px] xs:text-center lg:text-left mx-auto'>
                     <ScrollAnimation animateIn='fade-in-right' animateOnce={true}>
                         <h3 className = 'text-[30px] font-semibold mb-2'>About Us</h3>
                     </ScrollAnimation>
@@ -22,8 +22,8 @@ function Second() {
                 </div>
             </div>
             <ScrollAnimation animateIn='fade-in-right' animateOnce={true}>
-                <div className='bg-[#D4ECDD] bg-opacity-60'>
-                    <img src = {window} alt ="window" className='w-[65%] h-[80vh] mx-auto' />
+                <div className='flex bg-[#D4ECDD] bg-opacity-60 xs:h-[75vh] lg:h-full xs:min-h-[420px]'>
+                    <img src = {window} alt ="window" className='xs:w-[70%] sm:w-[60%] md:w-[50%] lg:w-[65%] xs:h-[65vh] lg:h-[80vh] xs:min-h-[350px] lg:min-h-[500px] mx-auto my-auto' />
                 </div>
             </ScrollAnimation>
         </div>

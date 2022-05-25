@@ -1,0 +1,8 @@
+body{
+    margin-left: 0;
+    padding: 0;
+}
+
+.third-background{
+    background: linear-gradient(180deg, #152D35 50%, #3775c5 50%);
+}

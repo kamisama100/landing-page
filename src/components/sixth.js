@@ -3,8 +3,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 function Sixth() {
     return (
-        <div className='flex bg-[#D4ECDD] bg-opacity-50 h-[120vh] text-black py-5'>
-            <h3 className='relative left-[95px] my-[90px] h-fit font-bold text-[30px]'>
+        <div className='flex bg-[#D4ECDD] bg-opacity-80 h-[140vh] text-black'>
+            <h3 className='relative left-[6rem] top-[5rem] h-fit font-bold text-[30px]'>
             Comments from our Clients
             </h3>
             <div className='flex flex-col text-left relative right-[21%] my-[160px] text-black bg-white w-[520px] h-[550px] p-[50px] py-[60px] text-[16px] font-[500]'>
